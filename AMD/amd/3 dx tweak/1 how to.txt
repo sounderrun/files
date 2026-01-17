@@ -1,0 +1,24 @@
+open registry editor and go to. 
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000
+
+look for driver desc and make sure its your proper gpu, if not go to 0001 and so on until you reach your gpu
+
+once you get there visit
+D3DVendorName and double click into it
+
+scroll to the end of it and make sure the lines are as follows
+
+amdxn64.dll
+amdxm64.dll
+atidxx64.dll
+atidxx64.dll
+
+then hit ok, dont delete or mess with anything else besides the last section of each value
+
+now enter D3dVendorNameWoW and do the same steps, make sure the ending values are as follows
+
+amdxn32.dll
+amdxm32.dll
+atidxx32.dll
+atidxx32.dll

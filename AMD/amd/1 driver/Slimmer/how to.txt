@@ -1,0 +1,17 @@
+Pre Install: 
+
+Packages: Select none, then recheck 
+-AMD Settings
+-AMD High Definition Audio Controller
+-AMD HDMI Audio Driver
+-AMD Display Driver
+
+Scheduled Tasks: Select none
+
+Display Driver Components: Select none
+
+Then at the bottom select modify installer, then run installer
+
+
+once the driver loads, make sure to uncheck the option for helping amd improve your experience by sending system usage data
+

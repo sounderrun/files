@@ -1,0 +1,25 @@
+# Windows
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+
+# Logs and cache
+*.log
+*.cache
+/temp/
+/tmp/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+*.lnk
+
+# Large files (use Git LFS if needed)
+*.iso
+*.img
